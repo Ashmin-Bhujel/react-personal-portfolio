@@ -21,10 +21,6 @@ export default function Navigation() {
       title: "Projects",
       to: "/projects",
     },
-    {
-      title: "Contact Me",
-      to: "/contact-me",
-    },
   ];
 
   return (
