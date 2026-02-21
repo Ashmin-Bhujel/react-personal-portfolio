@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router";
 
 import DefaultLayout from "./layouts/default-layout";
 import AboutMe from "./pages/about-me";
+import Skills from "./pages/skills";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -14,6 +15,7 @@ createRoot(document.getElementById("root")!).render(
       <Routes>
         <Route element={<DefaultLayout />}>
           <Route index element={<AboutMe />} />
+          <Route path="skills" element={<Skills />} />
         </Route>
       </Routes>
     </BrowserRouter>

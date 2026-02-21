@@ -1,9 +1,9 @@
 export default function AboutMe() {
   return (
     <section className="py-16 max-lg:pt-0">
-      <h3 className="pb-6 text-xl lg:hidden">About Me</h3>
+      <h3 className="pb-6 text-2xl font-medium lg:hidden">About Me</h3>
 
-      <div className="flex flex-col gap-6 leading-loose text-(--muted-foreground)">
+      <div className="flex flex-col gap-6 leading-loose">
         <p>
           Hi, I'm Ashmin Bhujel — a passionate Software Developer from Nepal
           specializing in modern web application development. I focus on
