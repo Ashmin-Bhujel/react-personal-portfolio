@@ -33,7 +33,7 @@ export default function Skills() {
 
   return (
     <section className="py-16 max-lg:pt-0">
-      <h3 className="pb-6 text-2xl lg:hidden">Skills</h3>
+      <h3 className="pb-6 text-2xl font-medium lg:hidden">Skills</h3>
 
       <div className="flex flex-col gap-6">
         {/* Frontend */}

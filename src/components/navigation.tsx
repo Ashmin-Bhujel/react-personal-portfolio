@@ -21,14 +21,6 @@ export default function Navigation() {
       title: "Projects",
       to: "/projects",
     },
-    {
-      title: "Certificates",
-      to: "/certificates",
-    },
-    {
-      title: "Education",
-      to: "/education",
-    },
   ];
 
   return (

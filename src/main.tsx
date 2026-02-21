@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import DefaultLayout from "./layouts/default-layout";
 import AboutMe from "./pages/about-me";
 import NotFound from "./pages/not-found";
+import Projects from "./pages/projects";
 import Skills from "./pages/skills";
 
 createRoot(document.getElementById("root")!).render(
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")!).render(
         <Route element={<DefaultLayout />}>
           <Route index element={<AboutMe />} />
           <Route path="skills" element={<Skills />} />
+          <Route path="projects" element={<Projects />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
