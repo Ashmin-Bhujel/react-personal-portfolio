@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "@fontsource-variable/bricolage-grotesque";
+
+:root {
+  --background: var(--color-violet-50);
+  --foreground: var(--color-violet-950);
+  --muted-background: var(--color-violet-200);
+  --muted-foreground: var(--color-violet-500);
+  --nav-active-background: var(--color-violet-950);
+  --nav-inactive-background: var(--color-violet-300);
+
+  @media (prefers-color-scheme: dark) {
+    --background: var(--color-zinc-900);
+    --foreground: var(--color-zinc-100);
+    --muted-background: var(--color-zinc-800);
+    --muted-foreground: var(--color-zinc-400);
+    --nav-active-background: var(--color-zinc-100);
+    --nav-inactive-background: var(--color-zinc-400);
+  }
+}
+
+@theme {
+  --font-sans: "Bricolage Grotesque Variable", sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
