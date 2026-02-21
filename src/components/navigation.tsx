@@ -22,8 +22,12 @@ export default function Navigation() {
       to: "/projects",
     },
     {
-      title: "Contact Me",
-      to: "/contact-me",
+      title: "Certificates",
+      to: "/certificates",
+    },
+    {
+      title: "Education",
+      to: "/education",
     },
   ];
 
