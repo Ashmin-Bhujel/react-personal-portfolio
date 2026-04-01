@@ -22,7 +22,7 @@ export default function Project({ project }: ProjectProps) {
   return (
     <div className="relative rounded-lg p-4 transition-colors duration-200 hover:bg-(--muted-background)">
       {!project.homepage && (
-        <span className="absolute right-4 rounded-full bg-zinc-700 px-2 py-1 text-xs">
+        <span className="absolute right-4 rounded-full border border-neutral-950 bg-zinc-900 px-2 py-1 text-xs">
           Work in Progress
         </span>
       )}

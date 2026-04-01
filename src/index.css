@@ -2,12 +2,12 @@
 @import "@fontsource-variable/bricolage-grotesque";
 
 :root {
-  --background: var(--color-zinc-900);
-  --foreground: var(--color-zinc-100);
-  --muted-background: var(--color-zinc-800);
-  --muted-foreground: var(--color-zinc-400);
-  --nav-active-background: var(--color-zinc-100);
-  --nav-inactive-background: var(--color-zinc-400);
+  --background: var(--color-neutral-950);
+  --foreground: var(--color-neutral-200);
+  --muted-background: var(--color-neutral-900);
+  --muted-foreground: var(--color-neutral-500);
+  --nav-active-background: var(--color-neutral-200);
+  --nav-inactive-background: var(--color-neutral-500);
 }
 
 @theme {
