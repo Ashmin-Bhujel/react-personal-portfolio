@@ -57,11 +57,13 @@ export default function Projects() {
 
       <div className="flex flex-col gap-4 divide-y-2 divide-(--muted-background)">
         {projects
-          .filter((project) => project.homepage)
+          .filter(
+            (project) => project.homepage || project.name === "expense-tracker",
+          )
           .sort(
             (a, b) =>
-              new Date(b.updated_at).getTime() -
-              new Date(a.updated_at).getTime(),
+              new Date(a.updated_at).getTime() -
+              new Date(b.updated_at).getTime(),
           )
           .map((project) => (
             <Project key={project.id} project={project} />

@@ -20,7 +20,13 @@ type ProjectProps = {
 
 export default function Project({ project }: ProjectProps) {
   return (
-    <div className="rounded-lg p-4 transition-colors duration-200 hover:bg-(--muted-background)">
+    <div className="relative rounded-lg p-4 transition-colors duration-200 hover:bg-(--muted-background)">
+      {!project.homepage && (
+        <span className="absolute right-4 rounded-full border border-neutral-950 bg-zinc-900 px-2 py-1 text-xs">
+          Work in Progress
+        </span>
+      )}
+
       {/* Name and description */}
       <div className="space-y-2">
         <h4 className="text-xl capitalize">
