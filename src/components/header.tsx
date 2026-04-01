@@ -8,8 +8,7 @@ export default function Header() {
       <h2 className="text-lg tracking-tight sm:text-xl">Software Developer</h2>
 
       <p className="mt-4 max-w-xs leading-normal text-(--muted-foreground)">
-        I build web applications using HawaScript. Just kidding, I use
-        TypeScript and VS Code as primary programming language and tool.
+        I build things using TypeScript and VS Code.
       </p>
     </header>
   );
